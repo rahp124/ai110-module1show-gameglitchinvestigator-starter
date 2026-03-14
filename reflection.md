@@ -40,6 +40,7 @@ Hint messages are reversed. Difficulty range does not match the instructions. Ne
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  The app reruns the script from top to bottom every time a user interacts with the interface. To prevent the app from forgetting important dat, Streamlit provides state that stores variables. The app can update the UI dynamically while remembering key information.
 
 ---
 
@@ -51,4 +52,4 @@ Hint messages are reversed. Difficulty range does not match the instructions. Ne
 - What is one thing you would do differently next time you work with AI on a coding task?
   Taking more intermediatery steps to verify AI code sequentially.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
-  I think this project helped me figure out how to split up tasks assigned to the AI. I think
+  I think this project helped me figure out how to split up tasks assigned to the AI. I think the #FIXME comments are a good way to direct AI to specific sections as well as be able to do so in multiple chat sessions, asking it to explain first before using agent mode.
